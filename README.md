@@ -1,5 +1,5 @@
 ```clojure
-[com.aravindbaskaran/redis-pubsub "0.1.0"] ; See CHANGELOG for details
+[com.aravindbaskaran/redis-pubsub "0.1.1"] ; See CHANGELOG for details
 ```
 
 [![Clojars Project](https://img.shields.io/clojars/v/com.aravindbaskaran/redis-pubsub.svg)](https://clojars.org/com.aravindbaskaran/redis-pubsub)

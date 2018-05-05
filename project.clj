@@ -1,4 +1,4 @@
-(defproject com.aravindbaskaran/redis-pubsub "0.1.0"
+(defproject com.aravindbaskaran/redis-pubsub "0.1.1"
   :author "Aravind Baskaran <https://github.com/aravindbaskaran>"
   :description "A redis pubsub client with keep-alive heart beats on top of the awesome com.taoensso/carmine library"
   :url "https://github.com/aravindbaskaran/redis-pubsub"
