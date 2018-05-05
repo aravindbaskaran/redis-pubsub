@@ -5,11 +5,11 @@ All notable changes to this project will be documented in this file. This change
 [com.aravindbaskaran/redis-pubsub "0.1.1"]
 ```
 
-## [0.1.0] 2018-05-05
+## [0.1.1] 2018-05-05
 ### Changed
 - Minor doc strings changes, added codox
 
-## [0.1.0] 2018-05-05
+## 0.1.0 2018-05-05
 ### Changed
 - Add a new macro `with-new-keepalive-listener` to provide a base keep-alive listener with timely pings.
 - Add a new macro `with-new-keepalive-pubsub-listener` to provide a keep-alive pubsub listener.
