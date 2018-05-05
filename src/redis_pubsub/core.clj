@@ -10,6 +10,7 @@
 
 (defmacro with-new-keepalive-listener
   "
+    Extension of carmine/with-new-listener
     A health check added listener on top of the awesome carmine/with-new-listener macro.
     Use ping-ms in connection spec to override default 30000ms ping timeout.
     For fatal exceptions on the listener, add channel listener to pubsub:listener:fail
@@ -48,7 +49,7 @@
      (Listener. conn# handler-atom# state-atom# future#)))
 
 (defmacro with-new-keepalive-pubsub-listener
-  "A wrapper for `with-new-keepalive-listener`.
+  "A wrapper for `with-new-keepalive-listener`. - Extension of carmine/with-new-pubsub-listener
 
   Creates a persistent[1] connection to Redis server and a thread to
   handle messages published to channels that you subscribe to with

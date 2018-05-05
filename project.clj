@@ -8,4 +8,11 @@
             :comments "Same as Clojure"}
   :dependencies
   [[org.clojure/clojure "1.8.0"]
-   [com.taoensso/carmine "2.16.0"]])
+   [com.taoensso/carmine "2.16.0"]]
+  :profiles
+   {;; :default [:base :system :user :provided :dev]
+    :dev
+    [:test
+     {:plugins
+      [[lein-codox   "0.10.3"]]}]}
+  :test-paths ["test" "src"])

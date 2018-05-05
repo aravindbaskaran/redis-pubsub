@@ -2,6 +2,8 @@
 [com.aravindbaskaran/redis-pubsub "0.1.0"] ; See CHANGELOG for details
 ```
 
+[![Clojars Project](https://img.shields.io/clojars/v/com.aravindbaskaran/redis-pubsub.svg)](https://clojars.org/com.aravindbaskaran/redis-pubsub)
+
 # redis-pubsub
 
 A redis pubsub client with keep-alive heart beats on top of the awesome <a href="https://github.com/ptaoussanis/carmine" >com.taoensso/carmine library</a>.
